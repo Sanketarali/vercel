@@ -13,7 +13,8 @@ import {
   FaLinkedin,
   FaStackOverflow,
   FaYoutube,
-  FaTwitter
+  FaTwitter,
+  FaXTwitter
 } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 
@@ -98,14 +99,14 @@ export default function Header() {
                   <FaGithub className="text-text" size={24} />
                   Github
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                   to="https://www.instagram.com/sanket_arali"
                   target="_/blank"
                   className="flex gap-4 items-center hover:text-neutral-400  "
                 >
                   <FaYoutube className="text-text" size={24} />
                   Youtube
-                </NavLink>
+                </NavLink> */}
                 <NavLink
                   to="https://www.linkedin.com/in/sanketarali/"
                   target="_/blank"
@@ -119,7 +120,7 @@ export default function Header() {
                   target="_/blank"
                   className="flex gap-4 items-center hover:text-neutral-400  "
                 >
-                  <FaStackOverflow className="text-text" size={24} />
+                  <FaXTwitter className="text-text" size={24} />
                   Twitter
                 </NavLink>
               </div>
