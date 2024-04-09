@@ -92,7 +92,7 @@ export default function Header() {
                   Instagram
                 </NavLink>
                 <NavLink
-                  to="https://github.com/sanket_arali"
+                  to="https://github.com/Sanketarali"
                   target="_/blank"
                   className="flex gap-4 items-center hover:text-neutral-400  "
                 >
